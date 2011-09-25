@@ -1,0 +1,41 @@
+ALGORITMO CRU
+=============
+
+PROGRAMA
+
+- Entra no programa.
+- Escolhe-se o número de jogadores ( 2 a 4).
+
+- INÍCIO DO JOGO.
+
+    - INÍCIO DA RODADA.
+	
+	- Escolha de palitos.
+    	    - O Jogador escolhe o número de palitos a jogar.
+    	    - Se primeira rodada, o número de palitos deve ser maior que 0.
+	- Repete-se até todos escolherem o número de palitos.
+
+	- Somam-se os pálitos de cada jogador(dá a aposta certa).
+	
+        - Chute de palitos
+	    - Se primeira rodada o jogador humano escolhe o primeiro número.
+	    - Senão, o vencedor da rodada anterior escolhe o primeiro número.
+	    - Ainda se não houver vencedor de rodada, o próximo jogador depois 
+    	      daquele que primeiro jogou na rodada anterior, escolhe o primeiro 
+	      número.
+        - Repete-se até todos os jogadores escolherem um palito.
+	
+    - FIM DA RODADA.
+    
+    - Se algum jogador acertar o número total de palitos, retira-se um palito 
+      de um jogador.
+    - Repete-se até algum jogador ganhar (ter nenhum palito).
+
+- FIM DO JOGO.
+
+- Jogador que perdeu todos os pálitos é o vencedor.
+- Jogar novamente?
+
+- Repete até o jogador cansar ou seja dar uma dor.
+
+FIM DO PROGRAMA.
